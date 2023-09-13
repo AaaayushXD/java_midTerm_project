@@ -1,0 +1,10 @@
+Orea is added on 2023-09-13
+Ramen is added on 2023-09-13
+Diet Coke is added on 2023-09-13
+Pringles is added on 2023-09-13
+Chocolate is added on 2023-09-13
+orea is updated on 2023-09-13
+chocolate is updated on 2023-09-13
+2.0 chocolate is  bought on 2023-09-13
+5.0 diet coke is  sold on 2023-09-13
+pringles is removed on 2023-09-13

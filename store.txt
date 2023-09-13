@@ -1,0 +1,4 @@
+Product name: Ramen, Quantity (in stock):  50.0, Price (in NRs): 80.0, Date (dd-mm-yyyy): 2023-09-13
+Product name: orea, Quantity (in stock):  50.0, Price (in NRs): 20.0, Date (dd-mm-yyyy): 2023-09-13
+Product name: chocolate, Quantity (in stock):  82.0, Price (in NRs): 120.0, Date (dd-mm-yyyy): 2023-09-13
+Product name: diet coke, Quantity (in stock):  25.0, Price (in NRs): 85.0, Date (dd-mm-yyyy): 2023-09-13
