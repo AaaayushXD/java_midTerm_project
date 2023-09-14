@@ -40,6 +40,7 @@ public class FileManager extends LogManager{
             bufferedWriter.close();
             fileWriter.close();
         } catch (IOException e) {
+            System.out.println("Something went wrong while saving data to file");
             e.printStackTrace();
         }
     }
@@ -65,6 +66,7 @@ public class FileManager extends LogManager{
             bufferedWriter.close();
             fileWriter.close();
         } catch (IOException e) {
+            System.out.println("Couldn't remove item from the file.");
             e.printStackTrace();
         }
     }
@@ -106,6 +108,7 @@ public class FileManager extends LogManager{
             bufferedReader.close();
             fileReader.close();
         } catch (Exception e)  {
+            System.out.println("Couldn't read from file. Something went wrong.");
             e.printStackTrace();
         }
     }

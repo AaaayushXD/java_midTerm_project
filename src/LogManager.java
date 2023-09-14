@@ -22,6 +22,7 @@ public class LogManager extends Output{
             bufferedWriter.close();
             fileWriter.close();
         } catch (IOException e) {
+            System.out.println("Something went wrong while updating the log file");
             e.printStackTrace();
         }
     }
@@ -34,7 +35,6 @@ public class LogManager extends Output{
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bankBalance = loadBalance();
 
-
             if(action.equalsIgnoreCase("added")) {
                 bankBalance += updatedAmount;
                 outputText("New amount = "+bankBalance);
@@ -42,20 +42,17 @@ public class LogManager extends Output{
                 bankBalance -= updatedAmount;
                 outputText("New Amount = " +bankBalance);
             }
-
             bufferedWriter.write("Total Balance = Rs " + bankBalance);
             bufferedWriter.newLine();
             bufferedWriter.write("Rs " +updatedAmount+ " is " + action + " on " + date);
             bufferedWriter.newLine();
-
-
             bufferedWriter.close();
             fileWriter.close();
-
             file.delete();
             tmpFile.renameTo(file);
 
         } catch (IOException e) {
+            System.out.println("Something went wrong while updating balance.");
             e.printStackTrace();
         }
     }
